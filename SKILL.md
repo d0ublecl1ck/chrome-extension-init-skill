@@ -35,6 +35,7 @@ Ask these in order; use numeric options for each choice and allow multi-select w
 - Bundler: Vite (default), Webpack, Rsbuild.
 - UI surface (explain briefly for beginners): Popup (toolbar button panel), Options (full settings page), Side panel (Chrome side panel), DevTools (panel inside DevTools), Content script UI (in-page UI injected into websites).
 - UI library (optional, allow multi-select): shadcn/ui, Tailwind UI, Material UI, Ant Design, None.
+- Icon library (optional): Lucide, Heroicons, Iconify, None.
 - Styling: Tailwind CSS, CSS Modules, plain CSS.
 - Tooling: ESLint, Prettier, commit lint (ask as a set).
 - Package manager: pnpm, npm, yarn (default to project/user preference).
