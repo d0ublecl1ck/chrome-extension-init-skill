@@ -18,14 +18,23 @@ Guide the user through selecting a complete extension tech stack and scaffold a 
 
 ### 2) Collect Stack Choices (multi-turn)
 
-Ask these in order; use numeric options for each choice and allow multi-select where meaningful:
+Ask these in order; use numeric options for each choice and allow multi-select where meaningful. Add a "Default (recommended)" option that skips the step-by-step questions and uses:
+- Extension type: MV3
+- Framework: React
+- Language: TypeScript
+- Bundler: Vite
+- UI surface: Popup + Options
+- UI library: shadcn/ui + Tailwind CSS
+- Styling: Tailwind CSS
+- Tooling: ESLint + Prettier
+- Package manager: pnpm
 
 - Extension type: MV3 (default), MV2 only if explicitly requested.
 - Framework: React, Vue, Svelte, Vanilla.
 - Language: TypeScript, JavaScript.
 - Bundler: Vite (default), Webpack, Rsbuild.
 - UI surface (explain briefly for beginners): Popup (toolbar button panel), Options (full settings page), Side panel (Chrome side panel), DevTools (panel inside DevTools), Content script UI (in-page UI injected into websites).
-- UI library (optional): shadcn/ui, Tailwind UI, Material UI, Ant Design, None.
+- UI library (optional, allow multi-select): shadcn/ui, Tailwind UI, Material UI, Ant Design, None.
 - Styling: Tailwind CSS, CSS Modules, plain CSS.
 - Tooling: ESLint, Prettier, commit lint (ask as a set).
 - Package manager: pnpm, npm, yarn (default to project/user preference).
