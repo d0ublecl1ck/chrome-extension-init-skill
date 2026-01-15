@@ -64,6 +64,7 @@ Use toast for user-facing prompts and avoid alert when generating UI scaffolding
 - Initialize git in the project root.
 - Create `.gitignore` suitable for the chosen tooling.
 - Run an initial install and build if appropriate.
+- Create `AGENTS.md` in the project root with the rule: `- Run build after every change.`
 - Make the first commit with a clear message like "chore: initialize extension project".
 
 ### 6) Hand-off
