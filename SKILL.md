@@ -18,7 +18,7 @@ Guide the user through selecting a complete extension tech stack and scaffold a 
 
 ### 2) Collect Stack Choices (multi-turn)
 
-Ask these in order; use numeric options for each choice and allow multi-select where meaningful. Add a "Default (recommended)" option that skips the step-by-step questions and uses:
+Ask these in order; use numeric options for each choice and allow multi-select where meaningful. Also ask for basic extension metadata (name, description, author). Add a "Default (recommended)" option that skips the step-by-step questions and uses:
 - Extension type: MV3
 - Framework: React
 - Language: TypeScript
