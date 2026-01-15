@@ -24,7 +24,7 @@ Ask these in order; use numeric options for each choice and allow multi-select w
 - Framework: React, Vue, Svelte, Vanilla.
 - Language: TypeScript, JavaScript.
 - Bundler: Vite (default), Webpack, Rsbuild.
-- UI surface: Popup, Options, Side panel, DevTools, Content script UI.
+- UI surface (explain briefly for beginners): Popup (toolbar button panel), Options (full settings page), Side panel (Chrome side panel), DevTools (panel inside DevTools), Content script UI (in-page UI injected into websites).
 - UI library (optional): shadcn/ui, Tailwind UI, Material UI, Ant Design, None.
 - Styling: Tailwind CSS, CSS Modules, plain CSS.
 - Tooling: ESLint, Prettier, commit lint (ask as a set).
